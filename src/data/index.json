@@ -199,7 +199,7 @@
             "title": "Student Assistant",
             "company": "San Jose State University",
             "duration": "May 2023 - August 2023",
-            "description": " Developed a Deep Learning and Natural Language Processing model that determines the 5G network slice           requirements with an accuracy of 95% based on user statements"
+            "description": "Developed a Deep Learning and Natural Language Processing model that determines the 5G network slice requirements with an accuracy of 95% based on user statements"
         },
         {
             "id" :"3",
@@ -207,7 +207,7 @@
             "title": "Associate Software Engineer",
             "company": "Hitachi Vantara",
             "duration": "August 2021 - July 2022",
-            "description": "Designed and implemented a plugin allowing customers to seamlessly connect to MongoDB from the Pentaho Data Integration platform, resulting in 25% improvement in data accessibility and analysis. Resolved bugs in Pentaho plugins - Oozie, Kerberos authentication, hive query executor and data input in collaboration with cross-functional teams resulting 10% increase in customer satisfaction. Investigated and resolved 15 critical end points, including user login, edit profile on Pentaho Server Website deploying Java Cross-site Request Forgery (CSRF) security mechanisms resulting in 35% increase in security"
+            "description": "Designed and implemented a plugin allowing customers to seamlessly connect to MongoDB from the Pentaho Data Integration platform, resulting in 25% improvement in data accessibility and analysis.\\n Resolved bugs in Pentaho plugins - Oozie, Kerberos authentication, hive query executor and data input in collaboration with cross-functional teams resulting 10% increase in customer satisfaction.\\n Investigated and resolved 15 critical end points, including user login, edit profile on Pentaho Server Website deploying Java Cross-site Request Forgery (CSRF) security mechanisms resulting in 35% increase in security"
         },
         {
             "id" :"1",
@@ -215,7 +215,7 @@
             "title": "Software Intern",
             "company": "Hitachi Vantara",
             "duration": "May 2021 - June 2021",
-            "description": " Accelerated issue resolution by 20% by effectively troubleshooting and diagnosing the root cause through an in depth  understanding of the codebase. Deployed testing on 14 Pentaho components such as Hive input-output, Oozie query executor across Big Data environments such as Hortonworks, Cloudera to ensure proper functionality and compatibility"
+            "description": " Accelerated issue resolution by 20% by effectively troubleshooting and diagnosing the root cause through an in depth  understanding of the codebase.\n Deployed testing on 14 Pentaho components such as Hive input-output, Oozie query executor across Big Data environments such as Hortonworks, Cloudera to ensure proper functionality and compatibility"
         }
     ],
     "portfolio" : [
@@ -231,7 +231,7 @@
             "src": "./img/placeholder-img1.jpg",
             "title": "Job Recommendation System",
             "description": "Deployed Neural Collaborative Filtering to design a job recommendation system provides recommendations to customers with a hit ratio of 87% based on user’s past activity and similar user choices",
-            "link": "View in Github"
+            "link": "https://github.com/BhargaviChevva18/Job-Recommendation-System"
         },
         {
             "id" :"3",
