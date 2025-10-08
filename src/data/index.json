@@ -22,23 +22,18 @@
         },
         {
             "id": "5",
-            "title": "R",
+            "title": "Spring",
             "count":"4"
         },
         {
             "id": "6",
-            "title": "Haskell",
-            "count":"4.5"
+            "title": "SpringBoot",
+            "count":"4"
         },
         {
             "id": "7",
-            "title": "Ruby",
-            "count":"3"
-        },
-        {
-            "id": "8",
-            "title": "Rust",
-            "count":"3"
+            "title": "Hibernate",
+            "count":"4"
         }
     ],
     "wt" : [
@@ -66,28 +61,74 @@
             "id": "5",
             "title": "React",
             "count": "4"
+        },
+        {
+            "id": "6",
+            "title": "Node.js",
+            "count": "5"
+        },
+        {
+            "id": "7",
+            "title": "Express.js",
+            "count": "5"
+        },
+        {
+            "id": "8",
+            "title": "PostMan",
+            "count": "5"
+        },
+        {
+            "id": "9",
+            "title": "Apache Tomcat",
+            "count": "5"
         }
+
     ],
     "db" : [
         {
             "id": "1",
+            "title": "AWS",
+            "count": "4"
+        },
+        {
+            "id": "2",
+            "title": "Docker",
+            "count": "4"
+        },
+        {
+            "id": "3",
+            "title": "Kubernetes",
+            "count": "4"
+        },
+        {
+            "id": "4",
             "title": "SQL",
             "count": "5"
         },
         {
-            "id": "2",
+            "id": "5",
             "title": "PL/SQL",
             "count": "5"
         },
         {
-            "id": "3",
-            "title": "MongoDB",
+            "id": "6",
+            "title": "Oracle DB",
             "count": "5"
         },
         {
-            "id": "4",
-            "title": "Cassandra",
-            "count": "4"
+            "id": "7",
+            "title": "PostgreSQL",
+            "count": "5"
+        },
+        {
+            "id": "8",
+            "title": "NoSQL (MongoDB/ Cassandra)",
+            "count": "5"
+        },
+        {
+            "id": "9",
+            "title": "Kafka",
+            "count": "5"
         }
     ],
     "others" : [
@@ -113,7 +154,7 @@
         },
         {
             "id": "5",
-            "title": "Cloud Computing",
+            "title": "Distributed Systems",
             "count": "5"
         },
         {
@@ -123,99 +164,38 @@
         },
         {
             "id": "7",
-            "title": "Distributed Systems",
-            "count": "5"
-        }
-    ],
-    "ot" : [
-        {
-            "id": "1",
-            "title": "Amazon Web Services",
-            "count": "5"
-        },
-        {
-            "id": "2",
-            "title": "Google Cloud",
-            "count": "5"
-        },
-        {
-            "id": "3",
-            "title": "Docker",
-            "count": "5"
-        },
-        {
-            "id": "4",
-            "title": "Pentaho Business Intelligence",
-            "count": "5"
-        },
-        {
-            "id": "5",
-            "title": "Apache Maven",
-            "count": "5"
-        },
-        {
-            "id": "6",
-            "title": "Ant",
-            "count": "5"
-        },
-        {
-            "id": "7",
-            "title": "Git",
+            "title": "Git Version Control",
             "count": "5"
         },
         {
             "id": "8",
-            "title": "Tableau",
-            "count": "5"
+            "title": "CI/CD",
+            "count": "4"
         },
         {
             "id": "9",
-            "title": "Selenium",
+            "title": "Jira",
             "count": "5"
         },
         {
             "id": "10",
-            "title": "JUnit",
-            "count": "4"
+            "title": "Confluence",
+            "count": "5"
         },
         {
             "id": "11",
-            "title": "Mockito",
-            "count": "3"
-        }
-    ],
-    "skills" : [
-        {
-            "id" :"1",
-            "src": "./img/sjsu-logo2.jpg",
-            "title": "Instructional Student Assistant",
-            "company": "San Jose State University",
-            "duration": "August 2023 - Present",
-            "description": "Tutor and grade 120 students on No SQL systems, Data Structures and Algorithms, and Object Oriented Design-Java"
+            "title": "Puppeteer",
+            "count": "5"
         },
         {
-            "id" :"2",
-            "src": "./img/sjsu-logo2.jpg",
-            "title": "Student Assistant",
-            "company": "San Jose State University",
-            "duration": "May 2023 - August 2023",
-            "description": "Developed a Deep Learning and Natural Language Processing model that determines the 5G network slice requirements with an accuracy of 95% based on user statements"
+            "id": "12",
+            "title": "Selenium",
+            "count": "5"
         },
         {
-            "id" :"3",
-            "src": "./img/hv-logo.jpg",
-            "title": "Associate Software Engineer",
-            "company": "Hitachi Vantara",
-            "duration": "August 2021 - July 2022",
-            "description": "Designed and implemented a plugin allowing customers to seamlessly connect to MongoDB from the Pentaho Data Integration platform, resulting in 25% improvement in data accessibility and analysis.\\n Resolved bugs in Pentaho plugins - Oozie, Kerberos authentication, hive query executor and data input in collaboration with cross-functional teams resulting 10% increase in customer satisfaction.\\n Investigated and resolved 15 critical end points, including user login, edit profile on Pentaho Server Website deploying Java Cross-site Request Forgery (CSRF) security mechanisms resulting in 35% increase in security"
-        },
-        {
-            "id" :"1",
-            "src": "./img/hv-logo.jpg",
-            "title": "Software Intern",
-            "company": "Hitachi Vantara",
-            "duration": "May 2021 - June 2021",
-            "description": " Accelerated issue resolution by 20% by effectively troubleshooting and diagnosing the root cause through an in depth  understanding of the codebase.\n Deployed testing on 14 Pentaho components such as Hive input-output, Oozie query executor across Big Data environments such as Hortonworks, Cloudera to ensure proper functionality and compatibility"
+            "id": "13",
+            "title": "Testing Frameworks (JUnit, Mocktio, TestNG)",
+            "count": "5"
         }
     ],
     "portfolio" : [
