@@ -1,8 +1,8 @@
- import HeroSection from "../HeroSection";
- import MyPortfolio from "../MyPortfolio";
- import Skills from "../Skills";
- import Work from "../Work";
-import Contact from "../Contact";
+ import HeroSection from "../HeroSection.jsx";
+ import MyPortfolio from "../MyPortfolio.jsx";
+ import Skills from "../Skills.jsx";
+ import Work from "../Work.jsx";
+import Contact from "../Contact.jsx";
 
  export default function Home()
  {
