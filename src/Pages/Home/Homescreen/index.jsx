@@ -3,16 +3,16 @@
  import Skills from "../Skills.jsx";
  import Work from "../Work.jsx";
 import Contact from "../Contact.jsx";
+import SkillsSection from "../SkillsSection.jsx";
 
  export default function Home()
  {
     return (
         <>
             <HeroSection/>
-            <Skills/>
+            <SkillsSection/>
             <Work/>
             <MyPortfolio/>
-            <Contact/>
         </>
     )
  }

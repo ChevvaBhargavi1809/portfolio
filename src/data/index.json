@@ -201,50 +201,24 @@
     "portfolio" : [
         {
             "id" :"1",
-            "src": "./img/placeholder-img.png",
+            "src": "./img/chatApp.png",
             "title": "Distributed Chat Application",
             "description": "Designed a distributed web application for networking and message sharing among customers using Java and MongoDB.",
             "link": "https://github.com/BhargaviChevva18/DistributedChatSystem"
         },
         {
             "id" :"2",
-            "src": "./img/placeholder-img1.jpg",
+            "src": "./img/jobrec.jpg",
             "title": "Job Recommendation System",
             "description": "Deployed Neural Collaborative Filtering to design a job recommendation system provides recommendations to customers with a hit ratio of 87% based on user’s past activity and similar user choices",
             "link": "https://github.com/BhargaviChevva18/Job-Recommendation-System"
         },
         {
             "id" :"3",
-            "src": "./img/placeholder-img2.png",
+            "src": "./img/cloudPaper.png",
             "title": "Study on co-resident attacks on Cloud",
             "description": "Researched co-resident attacks in cloud, and published a survey paper on preventive measures in UGC Purakala journal.",
             "link": "https://drive.google.com/file/d/1TizU-LqBKDGY3syMuwW7WDmK60Y_-qOp/view"
-        }
-    ],
-    "testimonial" : [
-        {
-            "id" :"1",
-            "count": "4",
-            "src": "./img/avatar-image.png",
-            "description": "lorem12",
-            "author_name": "Dianne Russel",
-            "author_designation": "Starbucks"
-        },
-        {
-            "id" :"2",
-            "count": "5",
-            "src": "./img/avatar-image-1.png",
-            "description": "lorem12",
-            "author_name": "Kristin Watson",
-            "author_designation": "Starbucks"
-        },
-        {
-            "id" :"3",
-            "count": "5",
-            "src": "./img/avatar-image-2.png",
-            "description": "lorem12",
-            "author_name": "Dianne",
-            "author_designation": "Starbucks"
         }
     ]
 }

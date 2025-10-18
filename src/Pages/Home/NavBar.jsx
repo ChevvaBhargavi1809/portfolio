@@ -62,7 +62,7 @@ function NavBar() {
                         smooth = {true}
                         offset = {-70}
                         duration = {500}
-                        to = "skills"
+                        to = "skillSection"
                         className = "navbar--content"
                         >
                             Skills
@@ -105,6 +105,7 @@ function NavBar() {
                     </li>
                 </ul>
             </div>
+            {/*
             <Link onClick={closeMenu} 
             spy ={true}
             smooth = {true}
@@ -112,6 +113,7 @@ function NavBar() {
             duration = {500}
             to = "Contact"
             className = "btn btn-primary">Contact Me</Link>
+            */}
         </nav>
     );
 

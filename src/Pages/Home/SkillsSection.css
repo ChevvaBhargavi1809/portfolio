@@ -1,0 +1,109 @@
+.skills-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box; /* CHANGED: safer box sizing */
+}
+
+.skills-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.skills-category {
+  margin-bottom: 50px;
+}
+
+.skills-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2a6bd4;
+  margin-bottom: 25px;
+}
+
+/* ********* KEY CHANGES BELOW ********* */
+
+.skills-row {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;      /* CHANGED: explicit row */
+  flex-wrap: wrap;          /* allow wrapping on small screens */
+  gap: 40px;
+  align-items: center;  /* CHANGED: align icon blocks at top */
+  justify-content: center;
+  /* optional: set a max width so flex items wrap at predictable points */
+  width: 100%;
+}
+
+.skill-item {
+ display: flex;
+  flex-direction: column;
+  align-items: center;      /* ensure horizontal centering inside tile */
+  justify-content: center;  /* ensure vertical centering inside tile */
+  text-align: center;
+
+  flex: 0 0 auto;
+  width: 110px;             /* adjust as needed */
+  height: 110px;            /* adjust as needed */
+  box-sizing: border-box;
+}
+
+
+/* hover effect */
+.skill-item:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* image sizing controlled by CSS only */
+.skill-logo {
+  align-items: center; 
+  justify-content: center;
+  width: 70px !important;              /* CHANGED: smaller icons */
+  height: 70px !important;
+  max-width: 70px !important;              /* NEW: ensures image doesn’t exceed these */
+  max-height: 70px !important;
+  object-fit: contain;          /* maintains aspect ratio */
+  display: block;
+  border-radius: 6px;           /* optional for rounded look */
+}
+
+/* name */
+.skill-name {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+  font-weight: 500;
+}
+
+/* responsive: more items per row on wide screens; automatically fewer on narrow screens */
+@media (min-width: 1200px) {
+  .skill-item { width: 140px; }   /* slightly larger on very wide screens */
+  .skill-logo { width: 72px; height: 72px; }
+}
+
+@media (max-width: 900px) {
+  .skill-item {
+    width: 90px;
+    height: 90px;
+  }
+  .skill-logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-item {
+    width: 80px;
+    height: 80px;
+  }
+  .skill-logo {
+    width: 40px;
+    height: 40px;
+  }
+}
