@@ -13,14 +13,13 @@ export default function HeroSection()
                         Chevva
                     </h1>
                     <p className = "here--section-description">
-                        I’m a Software Engineer who loves turning complex challenges into elegant, scalable solutions. Whether it’s building serverless architectures on AWS, deploying machine learning models in production, or optimizing Big Data pipelines, I bring curiosity, creativity, and impact to every project.
+                        I'm a Software Engineer with experience across backend development, full-stack engineering, and applied machine learning. I have designed and deployed scalable systems using AWS, Java, Python, Node.js, and modern web technologies, while also building and optimizing ML models for real-world applications.
                         <br></br>
                         <br></br>
-                        I've designed serverless REST APIs (utilizing AWS Lambda and Redshift) to deliver 10GB+ of data seamlessly, engineered automated schedulers to reduce human error, and deployed a Machine Learning model with real-time tuning that achieved 84% prediction accuracy. I've also developed and executed Appium test suites for mobile applications, leveraging AWS Device Farm
-                        I strengthened enterprise platforms by enhancing security with CSRF vulnerability fixes and maintaining production-grade Big Data plugins (Hive, Oozie, HDFS, MongoDB, etc). My work improved speed, reliability, and security for thousands of end-users.
+                        My work includes developing high-performance REST APIs, automating cloud workflows, integrating LLM-based components, and implementing distributed data pipelines. I also have experience improving system reliability, strengthening application security, and contributing to end-to-end product development across cross-functional teams.
                         <br></br>
                         <br></br>
-                        Beyond my roles, I’ve built - Personalized medical predictions using NLP, Transformers, and Graph Attention Networks, Distributed Chat Application with MongoDB + load balancing for high availability and Job Recommender System powered by Neural Collaborative Filtering (87% hit ratio)
+                        I enjoy solving complex technical problems, learning new technologies, and building reliable, scalable solutions that deliver meaningful impact.
                     </p>
                 </div>
                 <a href="https://www.linkedin.com/in/bhargavi-chevva/" class="btn btn-primary">Let's Connect!</a>

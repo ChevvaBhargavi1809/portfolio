@@ -94,7 +94,7 @@ function NavBar() {
                     </li>
                     <li>
                         <a
-                            href="https://drive.google.com/file/d/1YBq83iFzsVdffKCVez0mMW_6lc5vrA8p/view?usp=sharing"  // Update this with the actual path to your PDF file
+                            href="https://drive.google.com/file/d/1srSFDq2vikfbsgSHxcxUUKkp8MORSne-/view?usp=sharing"  // Update this with the actual path to your PDF file
                             onClick={closeMenu}
                             className="navbar--content"
                             target="_blank"  // Open the link in a new tab/window
