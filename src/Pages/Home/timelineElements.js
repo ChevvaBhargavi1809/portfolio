@@ -1,0 +1,51 @@
+let timelineElements = [
+    {
+        id: 0,
+        title: "Senior Machine Learning Engineer",
+        location: "Infotech, FL",
+        description:"● Architected and deployed an intelligence reporting platform that mines historical data to generate actionable insights (Vue.js, Python, AWS infrastructure), replacing a rule-based reporting system with adaptive, on-demand analysis for 1500+ organizations.\n● Implemented an LLM-based recommender system using Claude and LangGraph for agentic workflows, improving recommendation accuracy by 15% over the prior vector-based approach, validated through tracing and evaluation in LangSmith.\n● Automated a reporting workflow (AWS Lambda, Step Functions, EventBridge, API Gateway, S3, Cloudfront), accelerating data retrieval time from 20 seconds to 1-2 seconds per item.\n● Built a retrieval pipeline integrating Exa's semantic search API with an LLM-maintained knowledge graph (as an alternative to traditional RAG) to enrich customer recommendations with structured, real-time web data, particularly in cold-start scenarios.",
+        date: "February 2026 - Present",
+        icon: "infotech",
+    },
+    {
+        id: 1,
+        title: "Software Engineer",
+        location: "Vault JS",
+        description:"● Developed Serverless REST APIs to retrieve over 10 GB data from AWS Redshift database and deliver to the user interface, enhancing data accessibility and optimizing user engagement\n● Engineered an XGBoost machine learning model on Amazon Web Services Lambda serverless framework, incorporating real-time experimentation to fine-tune parameters and improve prediction accuracy to 84%\n● Implemented Appium test suites for mobile applications, leveraging AWS Device Farm to expand test coverage and reduce manual testing effort by 40%\n● Engineered an automated AWS Lambda scheduler to run scripts at defined intervals, increasing operational efficiency, minimizing human error, and enhancing overall product stability\n● Partnered with product teams and stakeholders to design and deliver end-to-end features, including planning, testing, development, and deployment",
+        date: "May 2024 - Present",
+        icon: "vault",
+    },
+    {
+        id: 1,
+        title: "Instructional Student Assistant",
+        location: "San Jose State University",
+        description:"● Tutor and grade 120 students on No SQL systems, Data Structures and Algorithms, and Object Oriented Design-Java",
+        date: "August 2023 - Present",
+        icon: "sjsu",
+    },
+    {
+        id: 2,
+        title: "Student Assistant",
+        location: "San Jose State University",
+        description:"● Developed a Deep Learning and Natural Language Processing model that determines the 5G network slice requirements with an accuracy of 95% based on user statements",
+        date: "August 2023 - Present",
+        icon: "sjsu",
+    },
+    {
+        id: 2,
+        title: "Associate Software Engineer",
+        location: "Hitachi Vantara",
+        description:"● Designed and implemented a plugin allowing customers to seamlessly connect to MongoDB from the Pentaho Data Integration platform, resulting in 25% improvement in data accessibility and analysis.\n  ● Resolved bugs in Pentaho plugins - Oozie, Kerberos authentication, hive query executor and data input in   collaboration with cross-functional teams resulting 10% increase in customer satisfaction.\n ● Investigated and resolved 15 critical end points, including user login, edit profile on Pentaho Server Website deploying Java Cross-site Request Forgery (CSRF) security mechanisms resulting in 35% increase in security.",
+        date: "August 2021 - July 2022",
+        icon: "work",
+    },
+    {
+        id: 2,
+        title: "Software Intern",
+        location: "Hitachi Vantara",
+        description:"● Accelerated issue resolution by 20% by effectively troubleshooting and diagnosing the root cause through an in depth understanding of the codebase.\n● Deployed testing on 14 Pentaho components such as Hive input-output, Oozie query executor across Big Data environments such as Hortonworks, Cloudera to ensure proper functionality and compatibility",
+        date: "May 2021 - June 2021",
+        icon: "work",
+    },
+]
+export default timelineElements;
