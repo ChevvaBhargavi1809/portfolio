@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.86ed15ce.css",
-    "main.js": "/portfolio/static/js/main.4cf9fa54.js",
+    "main.js": "/portfolio/static/js/main.c8e2fd70.js",
     "static/media/vjs-logo.png": "/portfolio/static/media/vjs-logo.1b67371da2241fffcbf3.png",
     "static/media/sjsu-logo2.jpg": "/portfolio/static/media/sjsu-logo2.08d08dcc52904d045d07.jpg",
     "static/media/hv-logo.jpg": "/portfolio/static/media/hv-logo.75a01f16c4aab6d44681.jpg",
     "index.html": "/portfolio/index.html",
     "main.86ed15ce.css.map": "/portfolio/static/css/main.86ed15ce.css.map",
-    "main.4cf9fa54.js.map": "/portfolio/static/js/main.4cf9fa54.js.map"
+    "main.c8e2fd70.js.map": "/portfolio/static/js/main.c8e2fd70.js.map"
   },
   "entrypoints": [
     "static/css/main.86ed15ce.css",
-    "static/js/main.4cf9fa54.js"
+    "static/js/main.c8e2fd70.js"
   ]
 }
